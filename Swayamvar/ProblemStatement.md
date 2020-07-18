@@ -53,7 +53,9 @@ rrmm
 mrmr
 ```
 #### Output
-`0`
+```
+0
+```
 #### Explanation
 The bride at first place will only marry groom who drinks rum. So the groom at first place will join the end of the queue. Updated groom's queue is `rmrm`.
 Now the bride at first place will marry the groom at first place. Updated bride's queue is `rmm` and groom's queue is `mrm`.
@@ -66,6 +68,8 @@ rmrm
 mmmr
 ```
 #### Output
-`2`
+```
+2
+```
 #### Explanation
 Following the above process 2 pairs will be left unmatched. Remember that bride will not move until she gets a groom of her choice. 
